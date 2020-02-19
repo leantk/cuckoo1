@@ -3,15 +3,7 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
-trigger:
-  batch: true
-  branches:
-    include:
-    - "master"
-  tags:
-    include:
-    - "refs/tags/*"
-
+trigger: none
 
 pool:
   vmImage: 'ubuntu-latest'
